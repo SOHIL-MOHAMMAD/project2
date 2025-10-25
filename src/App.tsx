@@ -45,8 +45,7 @@ const route =   createBrowserRouter(
 const App = () => {
   return (
     <div >
-      <div className="bg-[#f3f3f3] ">
-        
+      <div className="bg-[#f3f3f3] text w-full ">
         <RouterProvider router={route}/>
       </div>
     </div>

@@ -3,7 +3,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 const Footer = () => {
   return (
-    <div className="flex md:justify-evenly items-center p-6 border-t flex-col gap-8 md:flex-row mt-4">
+    <div className="flex md:justify-evenly items-center p-6 border-t mt-[-60px] flex-col gap-4 md:flex-row ">
       <div>
         <h1 className="font-extrabold text-lg">Phone</h1>
         <p>123-456-789</p>

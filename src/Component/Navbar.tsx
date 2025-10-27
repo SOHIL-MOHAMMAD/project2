@@ -19,10 +19,10 @@ const Navbar = () => {
         <div>
           <Link to="/" className="flex gap-2 items-center">
             <div className="bg-orange-300 h-[20px] w-[20px] rounded-2xl"></div>
-            <h1 className="text-lg font-bold"> Nicol Rider </h1>
+            <h1 className="md:text-lg text-sm font-extrabold"> Nicol Rider </h1>
           </Link>
         </div>
-        <p className="hidden sm:block">Editor</p>
+        <p className="md:text-lg text-sm font-light">Editor</p>
       </div>
 
       <div
